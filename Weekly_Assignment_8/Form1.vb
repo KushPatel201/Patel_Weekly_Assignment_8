@@ -8,7 +8,7 @@ Public Class frmSmart
     Private _strSavings(_intSizeOfArray) As String
     Private _decBill(_intSizeOfArray) As Decimal
 
-    Private Sub frmBill_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+    Private Sub frmSmart_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
         Dim objReader As IO.StreamReader
         Dim strSavingsAmount As String
